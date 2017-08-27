@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+
+{
+	int number1, number2, add, div, sub, mult;
+	
+	printf ("Please enter two integers: ");
+	scanf ("%d %d", &number1, &number2 );
+	add = number1 + number2 ;
+	mult = number1 * number2 ;	
+	div = number1 / number2 ;
+	sub = number1 - number2 ;
+	printf ( "%d + %d = %d\n" , number1 , number2 , add);
+	printf ( "%d * %d = %d\n" , number1 , number2 , mult);	
+	printf ( "%d / %d = %d\n" , number1 , number2 , div);		
+	printf ( "%d - %d = %d\n" , number1 , number2 , sub);
+	return 0;
+
+}
